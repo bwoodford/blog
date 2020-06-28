@@ -1,0 +1,17 @@
+
+html {
+    font-size: 21px;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: $color-back;
+    color: $color-text;
+}
+
+a {
+    text-decoration: underline dotted $color-accent;
+}
+
+a:visited {
+    color: $color-text;
+    text-decoration: underline dotted $color-accent;
+}
+

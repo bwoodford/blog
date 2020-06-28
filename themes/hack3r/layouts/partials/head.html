@@ -1,2 +1,20 @@
 <head>
+    {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Norto Blog-o">
+    <meta property="og:site_name" content="Norto Blog-o">
+    <meta property="og:description" content="Home of the one and only Norto.">
+
+    <!-- Import Normalization Library -->
+    <link type="text/css"
+          rel="stylesheet"
+          href="{{ `css/normalize.css` | relURL }}">
+
+    {{ $main := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+    <!-- Import Base Styles -->
+    <link type="text/css"
+        rel="stylesheet"
+        href="{{ $main.RelPermalink }}">
 </head>

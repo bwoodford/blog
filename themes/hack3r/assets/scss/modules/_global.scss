@@ -1,0 +1,11 @@
+
+// Navigation cursor
+.cursor {
+    animation: blink .80s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
