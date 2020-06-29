@@ -1,24 +1,32 @@
 <nav>
     <div id="nav-contain">
         <div id="nav-logo">
-            >> 
+            &#187;
             <span id="nav-logo-name">
             Norto 
             </span>
             <div id="nav-logo-path">
-                [{{.URL}}]:: 
+                {{$term_path := strings.TrimPrefix "/" .RelPermalink}}
+                {{if gt (len $term_path) 1}}
+                {{printf "[~/%s]" $term_path}}
+                {{else}}
+                [~]
+                {{end}}:: 
                 <span class="cursor" id="nav-logo-cursor">
                 </span>
             </div>
         </div>
+        <input type="checkbox" id="nav-toggle">
         <div id="nav-dropdown">
+            <label for="nav-toggle">
             &#9776;
+            </label>
         </div>
-        <div id="nav-links">
-            <a href="">Home</a>
-            <a href="">Blog</a>
-            <a href="">About</a>
-            <a href="">Books</a>
+        <ul id="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Books</a></li>
         </div>
     </div>
 </nav>
