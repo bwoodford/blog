@@ -1,4 +1,4 @@
-
+// CLASS DEFINITIONS
 // Navigation cursor
 .cursor {
     animation: blink .80s step-start infinite;
@@ -7,5 +7,19 @@
 @keyframes blink {
     50% {
         opacity: 0;
+    }
+}
+
+// MIXIN DEFINITIONS
+// Simplified media queries
+@mixin media-breakpoint-up($screen-size) {
+    @media only screen and (min-width: $screen-size) {
+        @content;
+    }
+}
+
+@mixin media-breakpoint-down($screen-size) {
+    @media only screen and (max-width: $screen-size) {
+        @content;
     }
 }

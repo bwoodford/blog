@@ -31,7 +31,6 @@ nav {
 
         // Mobile navigation
         @include media-breakpoint-down($screen-medium) {
-
             #nav-dropdown {
                 float: right;
                 top: 5px;
@@ -59,7 +58,6 @@ nav {
                     background-color: $color-border;
                 }
             }
-
             #nav-links {
                 align-self: center;
                 display: none;
@@ -102,22 +100,22 @@ nav {
         }
 
         @include media-breakpoint-up($screen-medium) {
+        #nav-links {
+            list-style-type: none;
+            float: right;
 
-            #nav-dropdown {display: none;}
+            li {
+                display: inline-block;
 
-            #nav-links {
-                padding: 0;
-                margin: 0;
-                float: right;
+                a {
+                    padding: 10px 0;
+                    width: 100%;
+                    display: block;
+                    text-decoration: none;
 
-                li {
-                    display: inline-block;
-                    
-                    a {
-                        width: 100%;
-                        padding: 5px 10px;
-                        display: block;
-                        text-align: center;
+                    span {
+                        position: relative;
+                        left: 15px;
                     }
                 }
             }
