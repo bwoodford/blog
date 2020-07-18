@@ -1,6 +1,10 @@
 FROM alpine:3.12
 
 RUN apk update
+RUN apk install \
+        curl \
+        git \
+        openssh
 
 #Framework version
 ENV VERSION_HUGO=0.74
