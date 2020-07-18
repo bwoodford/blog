@@ -1,4 +1,4 @@
 baseURL = "http://www.norto.dev/"
 languageCode = "en-US"
-theme = "hack3r"
+theme = "hugo-hack3r-theme"
 
