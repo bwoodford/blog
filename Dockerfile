@@ -1,13 +1,17 @@
-FROM alpine:3.12
+FROM amazonlinux:2
 
-RUN apk update
-RUN apk install \
-        curl \
-        git \
-        openssh
+RUN yum -y update       && \
+    yum -y install         \
+        git                \
+        openssh            \
+        wget               \
+        tar                \
+        curl               \
+    yum clean all       && \
+    rm -rf /var/cache/yum
 
 #Framework version
-ENV VERSION_HUGO=0.74
+ENV VERSION_HUGO=0.74.2
 
 # UTF-8 Environment
 ENV LANGUAGE en_US:en
@@ -20,4 +24,4 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v${VERSION_HUGO}/hug
     mv /hugo /usr/bin/hugo && \
     rm -rf hugo_extended_${VERSION_HUGO}_Linux-64bit.tar.gz
 
-ENTRYPOINT [ "bash", "-c" ]
+ENTRYPOINT ["bash", "-c"]
