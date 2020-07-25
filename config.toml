@@ -1,4 +1,8 @@
 baseURL = "http://www.norto.dev/"
 languageCode = "en-US"
 theme = "hugo-hack3r-theme"
+enableGitInfo = true
+
+[params]
+    description = "A website dedicated to the random crap I do."
 
