@@ -5,6 +5,4 @@ resources/[_]*
 ' No generated site files
 public/**
 
-' Stop tracking theme
-themes/**
 
