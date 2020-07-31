@@ -1,3 +1,6 @@
+[submodule "hugo-hack3r-theme"]
+	path = themes/hugo-hack3r-theme
+	url = https://github.com/IveGotNorto/hugo-hack3r-theme
 [submodule "themes/hugo-hack3r-theme"]
 	path = themes/hugo-hack3r-theme
 	url = https://github.com/IveGotNorto/hugo-hack3r-theme
