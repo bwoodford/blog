@@ -1,0 +1,27 @@
+.splash-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.splash-text p {
+    text-align: justify;
+}
+
+.splash-links {
+    display: inline;
+}
+
+.splash-links a { 
+    display: inline-block;
+    color: #DFDFDF;
+    width: 50px;
+}
+
+.splash-links img {
+    color: #DFDFDF
+}
+
+

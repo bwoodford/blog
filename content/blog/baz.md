@@ -1,5 +1,5 @@
 ---
-title: "Baz"
+title: "Holy moly, this is a long title!"
 date: 2020-07-11T16:02:27-05:00
 draft: true
 ---
@@ -102,14 +102,14 @@ Sample text here...
 ```
 
 Syntax highlighting
+{{< highlight javascript >}}
 
-``` js
 var foo = function (bar) {
   return bar++;
 };
 
 console.log(foo(5));
-```
+{{< / highlight >}}
 
 ## Tables
 

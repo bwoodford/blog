@@ -1,15 +1,20 @@
 {{ define "main" }}
-    {{ partial "blurb" . }}
-    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" "blog")}}
-    {{ range $paginator.Pages }}
-        <article>
-            <a class="paginator-heading" href="{{ .Permalink }}">
-                <h2>{{ .Title }}</h2>
-            </a>
-            <div>
-                {{ .Summary }}
-            </div>
-        </article>
-    {{ end }}
+<section class="splash-container">
+    <div class="splash-logo">
+    </div>
+    <div class="splash-text">
+        <p>
+            Hi, I'm Brandon Woodford. I'm a Software Developer living in the Twin Cities metro area. This is where you can read about me, my projects and other weird things.
+        </p>
+    </div>
+    <div class="splash-links">
+        <a href="">
+            <img src="/images/splash/mail.svg" rel="Mail Icon">
+        </a>
+        <a href="">
+            <img src="/images/splash/keybase.svg" rel="Keybase Icon">
+        </a>
+    </div>
+</section>
 {{ end }}
 
