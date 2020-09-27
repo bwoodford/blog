@@ -1,4 +1,6 @@
 
+' No generated resources
 resources/[_]*
 
-public/
+' No generated site files
+public/**

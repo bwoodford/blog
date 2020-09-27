@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+        hugo:
+                image: klakegg/hugo:0.74.3-ext-alpine
+                container_name: hugo-blog
+                ports:
+                        - "1313"
+                command: server
+                volumes:
+                        - ".:/src"
+                environment:
+                        - HUGO_ENV=DEV
+                        - VIRTUAL_HOST=norto.dev
+                        - VIRTUAL_PORT=1313
+                        - LETSENCRYPT_HOST=norto.dev
+                        - LETSENCRYPT_EMAIL=ivegot@norto.dev
+                networks:
+                        - proxy
+                restart: unless-stopped
+
+networks:
+        proxy:
+                external:
+                        name: nginx-proxy
