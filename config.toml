@@ -1,23 +1,23 @@
-baseURL = "http://www.norto.dev"
+baseURL = "https://www.norto.dev"
 title = "Brandon's Blogo"
 languageCode = "en-US"
-paginate = 5
-
 
 [params]
-    description = "A website dedicated to the random crap I do."
+    description = "Brandon Woodford's Blogo"
     customCss = ["css/homepage.css"]
 
 [markup]
     [markup.highlight]
+        anchorLineNos = true
         codeFences = true
-        guessSyntax = false
+        guessSyntax = false 
         hl_Lines = ""
+        lineAnchors = ""
         lineNoStart = 1
-        lineNos = false
+        lineNos = false 
         lineNumbersIntTable = true
-        noClasses = true
-        style = "tango"
+        noClasses = true 
+        style = "dracula"
         tabWidth = 4
 
 [module]
