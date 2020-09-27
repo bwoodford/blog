@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section class="splash-container">
     <div class="splash-logo">
+        <img src="/images/splash/logo.svg" alt="Brandon's Logo" rel="Brandon's Logo">
     </div>
     <div class="splash-text">
         <p>
@@ -8,11 +9,15 @@
         </p>
     </div>
     <div class="splash-links">
-        <a href="">
-            <img src="/images/splash/mail.svg" rel="Mail Icon">
+         <a id="pub-key" href="/files/pub.key" title="GPG Public Key">
+            <img src="/images/splash/key.svg" alt="Key Icon" rel="Key Icon">
         </a>
-        <a href="">
-            <img src="/images/splash/keybase.svg" rel="Keybase Icon">
+        <a id="email" href="mailto:ivegotnorto@protonmail.com" title="Email Account">
+            <!--<img src="/images/splash/mail.svg" alt="Mail Icon" rel="Mail Icon">-->
+            <span>@</span>
+        </a>
+        <a id="git" href="https://github.com/IveGotNorto" title="GitHub Account">
+            <img src="/images/splash/git.svg" alt="Source Control Icon" rel="Source Control Icon">
         </a>
     </div>
 </section>
