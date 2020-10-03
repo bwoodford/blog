@@ -3,7 +3,7 @@ title = "Brandon's Blogo"
 languageCode = "en-US"
 
 [params]
-    description = "Brandon Woodford's Blogo"
+    description = "A dedicated space for my projects and musings."
     customCss = ["css/homepage.css"]
 
 [markup]
