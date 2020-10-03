@@ -2,7 +2,7 @@ version: '3'
 
 services:
   hugo:
-    image: klakegg/hugo:0.74.3-ext-alpine
+    image: klakegg/hugo:0.75.1-ext-alpine
     container_name: hugo-blog
     ports:
             - "1313"
