@@ -27,15 +27,3 @@
     width: 50px;
     position: relative
 }
-
-#email {
-    font-size: 45px;
-    color: inherit;
-    text-decoration: none;
-    font-family: Helvetica;
-}
-
-#email span {
-    position: relative;
-    top: 12px;
-}

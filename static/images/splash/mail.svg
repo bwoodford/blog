@@ -1,156 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="45"
-   height="45"
-   viewBox="0 0 11.90625 11.90625"
-   version="1.1"
-   id="svg8"
-   sodipodi:docname="mail.svg"
-   inkscape:version="1.0.1 (1.0.1+r73)">
-  <defs
-     id="defs2">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1103">
-      <rect
-         style="display:inline;opacity:0.268817;fill:#dfdfdf;fill-opacity:1;stroke-width:0.0509889;stroke-linecap:round;stroke-linejoin:round"
-         id="rect1105"
-         width="8.5386839"
-         height="5.6915226"
-         x="1.0984682"
-         y="1.4146165"
-         ry="0.3912901"
-         transform="matrix(0.70911113,-0.70509673,0.70586496,0.70834642,0,0)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1107">
-      <rect
-         style="display:inline;opacity:0.268817;fill:#dfdfdf;fill-opacity:1;stroke-width:0.0509889;stroke-linecap:round;stroke-linejoin:round"
-         id="rect1109"
-         width="8.5386839"
-         height="5.6915226"
-         x="1.0984682"
-         y="1.4146165"
-         ry="0.3912901"
-         transform="matrix(0.70911113,-0.70509673,0.70586496,0.70834642,0,0)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1111">
-      <rect
-         style="display:inline;opacity:0.268817;fill:#dfdfdf;fill-opacity:1;stroke-width:0.0509889;stroke-linecap:round;stroke-linejoin:round"
-         id="rect1113"
-         width="8.5386839"
-         height="5.6915226"
-         x="1.0984682"
-         y="1.4146165"
-         ry="0.3912901"
-         transform="matrix(0.70911113,-0.70509673,0.70586496,0.70834642,0,0)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1115">
-      <rect
-         style="display:inline;opacity:0.268817;fill:#dfdfdf;fill-opacity:1;stroke-width:0.0502637;stroke-linecap:round;stroke-linejoin:round"
-         id="rect1117"
-         width="9.4928675"
-         height="4.9748373"
-         x="1.2212203"
-         y="1.2364858"
-         ry="0.34201825" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="18.043822"
-     inkscape:cy="23.691184"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer4"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
-     inkscape:pagecheckerboard="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="1920"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Bottom">
-    <path
-       id="rect859-6"
-       style="display:inline;fill:#dfdfdf;fill-opacity:1;stroke-width:0.0596792;stroke-linecap:round;stroke-linejoin:round"
-       d="M 7.5106526,3.7523208 6.6300862,4.4478857 C 6.243725,4.7530474 5.6204749,4.7544203 5.2327555,4.4509861 L 4.3961139,3.7962458 -5.0027953,11.219051 c -0.3863652,0.305162 -0.3851397,0.795207 0.00258,1.098641 l 10.2329672,8.008297 c 0.3877234,0.303434 1.0109655,0.302061 1.3973307,-0.0031 L 16.909045,12.204004 c 0.386366,-0.305162 0.38514,-0.79469 -0.0026,-1.098124 z"
-       clip-path="url(#clipPath1115)"
-       transform="matrix(1.2268149,0,0,1.4275835,-1.3655377,0.87086612)" />
-  </g>
-  <g
-     inkscape:label="Top"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline;opacity:1">
-    <rect
-       style="fill:#dfdfdf;stroke-width:0.0853515;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect859"
-       width="14.771315"
-       height="14.875928"
-       x="-7.0971947"
-       y="-14.756903"
-       ry="0.8887006"
-       transform="matrix(0.96612103,0.87983436,-0.96273654,0.88484359,-1.3655377,0.87086612)"
-       clip-path="url(#clipPath1111)" />
-    <rect
-       style="display:inline;fill:#dfdfdf;stroke-width:0.0605398;stroke-linecap:round;stroke-linejoin:round"
-       id="rect859-5"
-       width="14.771315"
-       height="14.875928"
-       x="-9.1043749"
-       y="0.29247063"
-       ry="0"
-       transform="matrix(0.96612103,0.87983436,-0.96273654,0.88484359,-1.3655377,0.87086612)"
-       clip-path="url(#clipPath1107)" />
-    <rect
-       style="display:inline;fill:#dfdfdf;stroke-width:0.0605398;stroke-linecap:round;stroke-linejoin:round"
-       id="rect859-5-3"
-       width="14.771315"
-       height="14.875928"
-       x="7.8250637"
-       y="-16.776993"
-       ry="0"
-       transform="matrix(0.96612103,0.87983436,-0.96273654,0.88484359,-1.3655377,0.87086612)"
-       clip-path="url(#clipPath1103)" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="Cutout"
-     style="display:inline;opacity:1" />
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<path fill="#DFDFDF" d="M371.496,485.52C327.36,505.384,289.104,512,236.872,512C114.76,512,7.352,424.456,7.352,280.28
+	C7.352,130.208,116.224,0,282.488,0c129.472,0,222.16,89.016,222.16,212.6c0,107.4-60.32,175.08-139.768,175.08
+	c-34.576,0-59.584-17.656-63.264-56.648h-1.472c-22.8,37.52-55.904,56.648-94.896,56.648c-47.816,0-82.392-35.312-82.392-95.64
+	c0-89.744,66.208-171.4,172.136-171.4c32.368,0,69.144,8.096,87.544,18.392l-22.064,136.096
+	c-7.352,43.392-2.208,63.264,18.392,63.992c31.632,0.736,71.352-39.728,71.352-124.32c0-95.632-61.792-169.936-175.824-169.936
+	c-112.544,0-211.128,88.28-211.128,228.784c0,122.848,78.712,192.736,188.328,192.736c37.52,0,77.248-8.088,106.664-23.544
+	L371.496,485.52z M306.024,181.704c-5.888-1.472-13.248-2.944-22.808-2.944c-48.544,0-86.808,47.816-86.808,104.456
+	c0,27.952,12.512,45.608,36.784,45.608c27.216,0,55.912-34.576,62.528-77.24L306.024,181.704z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>
