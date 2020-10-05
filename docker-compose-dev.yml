@@ -10,7 +10,5 @@ services:
     volumes:
             - ".:/src"
             - "../theme:/src/theme"
-    environment:
-            - HUGO_ENV=DEV
     restart: always
 
