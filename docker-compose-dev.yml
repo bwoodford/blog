@@ -9,6 +9,5 @@ services:
     command: server
     volumes:
             - ".:/src"
-            - "../theme:/src/theme"
     restart: always
 
