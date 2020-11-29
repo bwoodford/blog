@@ -1,6 +1,7 @@
 baseURL = "https://www.bwoodford.dev"
 title = "Brandon Woodford"
 languageCode = "en-US"
+disableFastRender = true
 paginate = 5
 
 [params]
