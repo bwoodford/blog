@@ -11,9 +11,9 @@ services:
             - ".:/src"
     environment:
             - HUGO_ENV="production"
-            - VIRTUAL_HOST=norto.dev, www.norto.dev
+            - VIRTUAL_HOST=bwoodford.dev, www.bwoodford.dev
             - VIRTUAL_PORT=1313
-            - LETSENCRYPT_HOST=norto.dev
+            - LETSENCRYPT_HOST=bwoodford.dev
             - LETSENCRYPT_EMAIL=ivegot@norto.dev
     networks:
             - proxy
