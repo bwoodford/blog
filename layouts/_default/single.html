@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <article>
+        <h1 class="title">{{ .Title }}</h1>
+        {{ if in site.Params.mainSections .Type}}
+            <div class="post-date">
+                <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+            </div>
+        {{ end }}
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </article>
+{{ end }}

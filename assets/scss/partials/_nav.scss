@@ -1,0 +1,31 @@
+.nav-contain {
+
+    margin: 17px auto 0;
+
+    .nav-logo {
+        position: relative;
+        display: inline-block;
+        font-size: 1.1em;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    #logo-name {
+        color: $color-accent;
+    }
+
+    ul {
+        list-style-type:none;        
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block; 
+        margin: 0 5px;
+    }
+
+}

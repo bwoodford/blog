@@ -1,0 +1,42 @@
+main {
+
+    .pag {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .posts {
+        list-style-type: none;
+        margin: 25px auto 40px;
+        padding: 0;
+
+        li {
+            margin: 45px 0px;
+        }
+    }
+
+    .post-summary {
+        text-align: justify;
+    }
+
+    .post-date {
+        font-style: italic;
+    }
+
+    .post-heading-title {
+        line-height: 1.2em;
+    }
+
+    .post-date,
+    .post-heading {
+        margin-bottom: .5em;
+    }
+
+    p, 
+    ul, 
+    ol,
+    pre { 
+        margin: 0 0 1.5em;
+    }
+
+}

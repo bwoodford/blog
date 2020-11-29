@@ -1,0 +1,112 @@
+html {
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-size: 1.3em; 
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+html, 
+body, 
+.body-container{
+    height: 100%;
+}
+
+main,
+nav,
+footer,
+body,
+html, 
+.body-container {
+   width: 100%;
+}
+
+.body-container {
+   max-width: 40em;
+   margin: 0 auto;
+   padding: 0 12px;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+nav {
+   display: block;
+}
+
+main {
+   line-height: 1.4em;
+   flex: 1;
+}
+
+footer {
+   flex-shrink: 0;
+}
+
+a {
+   color: inherit; 
+   text-decoration: underline;
+   text-decoration-color: $color-accent;
+
+   &:focus,
+   &:hover {
+      color: $color-accent;
+   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.5em 0 .5em;
+    font-weight: 700;
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+}
+
+pre {
+    padding: 1em 1.5em;
+    border: 1px outset $color-med;
+    border-radius: 5px;
+    color: $color-dark;
+    overflow: auto;
+    word-wrap: break-word;
+    display: block;
+    page-break-inside: avoid;
+    line-height: 1.3em;
+    font-size: .9em;
+}
+
+em {
+    font-style: italic;
+}
+
+hr { 
+   border: 1px solid $color-accent;
+}
+
+blockquote {
+   border-left: 3px solid $color-accent;
+   padding-left: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+   body {
+      background-color: $color-dark;
+      color: $color-light;
+   }
+}
+
+@media (prefers-color-scheme: light) {
+   body {
+      background-color: $color-light;
+      color: $color-dark;
+   }
+}

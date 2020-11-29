@@ -1,0 +1,38 @@
+{{ define "main" }}
+  {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)}}
+  <ul class="posts">
+  {{ range $paginator.Pages.ByDate.Reverse }}
+    <li>
+      <div class="post-heading">
+        <h2 class="post-heading-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+      </div>
+      <div class="post-date">
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+      </div>
+      <p class="post-summary">
+          {{ .Summary }}
+      </p>
+    </li>
+  {{ end }}
+  </ul>
+
+  <div class="pag">
+    <span class="pag-item-previous">
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="pag-previous">
+        « Prev
+      </a>
+    {{ end }}
+    </span>
+
+    <span class="pag-item-next">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="pag-next">
+        Next »
+      </a>
+    {{ end }}
+    </span>
+  </div>
+{{ end }}
