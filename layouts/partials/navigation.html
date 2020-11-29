@@ -7,8 +7,8 @@
             </span>
         </div>
         <ul class="nav-links">
-            <li><a href="/"><span>Home</span></a></li>
-            <li><a href="/about-me"><span>About</span></a></li>
+            <li><a href="{{ .Site.BaseURL }}"><span>Home</span></a></li>
+            <li><a href="{{ `/meta/about.md` | relURL }}"><span>About</span></a></li>
         </ul>
     </div>
 </nav>
