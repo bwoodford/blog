@@ -2,7 +2,6 @@
 title = "About Me"
 date = "2020-10-25T09:00:35-05:00"
 draft = "false"
-aliases = ["/about-me"]
 +++
 
 Hello! My name is Brandon Woodford, and if you haven't guessed, I'm a Software Developer. 

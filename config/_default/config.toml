@@ -1,9 +1,6 @@
 baseURL = "https://www.bwoodford.dev/"
 title = "Brandon Woodford"
 languageCode = "en-US"
-disableLiveReload = true
-disableFastRender = true
-canonifyURLs = true
 paginate = 5
 
 [params]
