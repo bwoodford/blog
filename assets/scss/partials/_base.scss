@@ -67,6 +67,10 @@ h6 {
     font-weight: 700;
 }
 
+code, pre {
+    font-size: .8em;
+}
+
 code {
     font-family: "Courier New", Courier, monospace;
 }
@@ -81,7 +85,6 @@ pre {
     display: block;
     page-break-inside: avoid;
     line-height: 1.3em;
-    font-size: .9em;
 }
 
 em {

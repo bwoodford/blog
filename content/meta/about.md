@@ -12,9 +12,10 @@ Currently, I work for [Solutia Consulting](https://www.solutiaconsulting.com) as
 
 Here are some other places you can find me:
 * [Lobste.rs](https://lobste.rs/u/ivegotnorto)
-* [Mastodon](https://fosstodon.org/@woodfobm)
 * [Hacker News](https://news.ycombinator.com/user?id=woodfordb)
+* [Mastodon](https://fosstodon.org/@woodfobm)
 * [GitHub](https://github.com/IveGotNorto)
+* [Source Hut](https://sr.ht/~norto/)
 
 You can also reach me by [email](mailto:ivegotnorto@protonmail.com), and if need be, using my GPG key: [`66AB E715 9556 9A09 22EC`](/files/public.gpg)
 
