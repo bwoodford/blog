@@ -10,7 +10,7 @@ services:
     volumes:
             - ".:/src"
     environment:
-            - HUGO_ENV="production"
+            - HUGO_ENV=production
             - VIRTUAL_HOST=bwoodford.dev, www.bwoodford.dev
             - VIRTUAL_PORT=1313
             - LETSENCRYPT_HOST=bwoodford.dev
