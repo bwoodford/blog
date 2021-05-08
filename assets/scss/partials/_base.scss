@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    font-size: 1.3em; 
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
     margin: 0;
 }
 
@@ -24,7 +23,7 @@ html,
 }
 
 .body-container {
-   max-width: 40em;
+   max-width: 50rem;
    margin: 0 auto;
    padding: 0 12px;
    box-sizing: border-box;
@@ -38,7 +37,6 @@ nav {
 }
 
 main {
-   line-height: 1.4em;
    flex: 1;
 }
 
@@ -63,12 +61,12 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 1.5em 0 .5em;
+    margin: 1.5rem 0 .5rem;
     font-weight: 700;
 }
 
 code, pre {
-    font-size: .8em;
+    font-size: 1rem;
 }
 
 code {
@@ -76,7 +74,7 @@ code {
 }
 
 pre {
-    padding: .8em 1.5em;
+    padding: 1rem 1.5rem;
     border: 1px outset $color-med;
     border-radius: 5px;
     color: $color-dark;
@@ -84,7 +82,6 @@ pre {
     word-wrap: break-word;
     display: block;
     page-break-inside: avoid;
-    line-height: 1.3em;
 }
 
 em {
@@ -92,7 +89,7 @@ em {
 }
 
 hr { 
-   border: 1px solid $color-accent;
+   border: 1px dashed $color-accent;
 }
 
 blockquote {

@@ -9,37 +9,46 @@ main {
         list-style-type: none;
         margin: 25px auto 40px;
         padding: 0;
-
-        li {
-            margin: 45px 0px;
-        }
-    }
-
-    .post-summary {
-        text-align: justify;
     }
 
     .post-date {
         font-style: italic;
     }
 
-    .post-heading-title {
-        line-height: 1.2em;
-    }
-
+    .title,
     .post-date,
     .post-heading {
-        margin-bottom: .5em;
+        margin-bottom: .75rem;
     }
 
-    p, 
-    ul, 
-    ol { 
-        margin: 0 0 1.5em;
+    .footnotes {
+        padding-top: 1.5rem;
+
+        hr {
+            margin-bottom: 1rem;
+        }
+    }
+
+    p,
+    ul,
+    ol,
+    img {
+        margin: 0 0 1.5rem;
+    }
+
+    sup {
+        margin-left: .2rem;
     }
 
     pre {
-        margin: 0 0 2.3em;
+        margin: 0 0 2.3rem;
+    }
+
+    img {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #DCDCDC;
+        border-radius: 3px;
     }
 
 }
