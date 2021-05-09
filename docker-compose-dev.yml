@@ -6,7 +6,7 @@ services:
     container_name: hugo-blog
     ports:
       - "1313:1313"
-    command: server
+    command: "server --buildDrafts"
     volumes:
             - ".:/src"
     restart: always
