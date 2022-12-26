@@ -4,3 +4,6 @@ resources/[_]*
 
 ' No generated site files
 public/**
+
+' No keys
+activity-pub/**
