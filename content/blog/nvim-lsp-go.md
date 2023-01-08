@@ -2,6 +2,7 @@
 title = "Neovim LSP & Go!"
 date = 2021-07-30T07:14:22-05:00
 draft = true
+tags = ['Blog']
 description = "A tutorial on Go integration with the native LSP client in Neovim."
 +++
 

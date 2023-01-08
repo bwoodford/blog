@@ -3,6 +3,7 @@ title = "The Great Password Migration"
 date = 2020-11-27T12:54:06-06:00
 draft = false 
 description = "My journey from 1password to pass."
+tags = ['Blog']
 +++
 
 Recently, I installed Arch Linux as my default Operating System for my desktop. Previously, I had Windows 10 installed, but recieved the Arch experience from years of using it on my laptop. The only scepticism I had was the gaming experience, but after realizing that most of my time was spent programming, I came to the conclusion that this was something I could deal with. I decided to go ahead and make the full transition. 

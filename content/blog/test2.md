@@ -1,6 +1,8 @@
 ---
 title: "Test2"
 date: 2020-10-24T17:59:24-05:00
+tags:
+  - Blog
 draft: true
 ---
 

@@ -2,6 +2,8 @@
 title: "Test6"
 date: 2020-10-25T12:57:57-05:00
 draft: true
+tags:
+  - Blog
 ---
 
 Extremely we promotion remainder eagerness enjoyment an. Ham her demands removal brought minuter raising invited gay. Contented consisted continual curiosity contained get sex. Forth child dried in in aware do. You had met they song how feel lain evil near. Small she avoid six yet table china. And bed make say been then dine mrs. To household rapturous fulfilled attempted on so. 

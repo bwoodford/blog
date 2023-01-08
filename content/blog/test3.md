@@ -2,6 +2,8 @@
 title: "Test3"
 date: 2020-10-24T17:59:27-05:00
 draft: true
+tags:
+  - Blog
 ---
 
 Supported neglected met she therefore unwilling discovery remainder. Way sentiments two indulgence uncommonly own. Diminution to frequently sentiments he connection continuing indulgence. An my exquisite conveying up defective. Shameless see the tolerably how continued. She enable men twenty elinor points appear. Whose merry ten yet was men seven ought balls. 
