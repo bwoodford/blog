@@ -1,0 +1,18 @@
+{{ if or .paginator.Next .paginator.Prev }}
+  <div class="pag">
+    {{ with .paginator.Next}}
+    <span class="pag-item-previous">
+      <a href="{{ .URL }}" class="pag-previous">
+        « Prev
+      </a>
+    </span>
+    {{ end }}
+    {{ with .paginator.Prev }}
+    <span class="pag-item-next">
+      <a href="{{ .URL }}" class="pag-next">
+        Next »
+      </a>
+    </span>
+    {{ end }}
+  </div>
+{{ end }}

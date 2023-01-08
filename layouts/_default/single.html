@@ -3,11 +3,12 @@
         <h1 class="title">{{ .Title }}</h1>
         {{ if in site.Params.mainSections .Type}}
             <div class="post-date">
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+              <span>• </span><time>{{ .Date.Format "January 2, 2006" }}</time>
             </div>
         {{ end }}
         <div class="content">
             {{ .Content }}
         </div>
+        {{ partial "tags.html" . }}
     </article>
 {{ end }}

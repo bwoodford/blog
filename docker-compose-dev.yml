@@ -6,7 +6,7 @@ services:
     container_name: hugo-blog
     ports:
       - "1313:1313"
-    command: "server --buildDrafts"
+    command: "server --buildDrafts --ignoreCache --noHTTPCache"
     volumes:
             - ".:/src"
     restart: always

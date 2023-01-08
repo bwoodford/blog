@@ -3,6 +3,7 @@ title = "Riding grooves, making tunes."
 date = 2021-07-15T20:08:20-05:00
 draft = true
 toc = false 
+tags = ['Music', 'Turntable', 'Records']
 description = "My journey into turntables & records."
 +++
 

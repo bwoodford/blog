@@ -1,0 +1,5 @@
+{{ define "main" }}
+  <h1 class="center">🏷 {{.Title }}</h1>
+  {{ $paginator := .Paginate (where site.RegularPages ".Params.tags" "intersect" (slice .Title))}}
+  {{ partial "roll.html" (dict "context" . "paginator" $paginator) }}
+{{ end }}
