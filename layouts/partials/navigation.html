@@ -1,14 +1,18 @@
 <nav>
-    <div class="nav-contain">
-        <div class="nav-logo">
-            &#10149;
-            <span id="logo-name">
-                Brandon 
-            </span>
-        </div>
-        <ul class="nav-links">
-            <li><a href="{{ `/` | relURL }}"><span>Home</span></a></li>
-            <li><a href="{{ `/meta/about` | relURL }}"><span>About</span></a></li>
-        </ul>
-    </div>
+  <div class="nav-contain">
+    <a href="{{ `/` | relURL }}" rel="">
+      <div class="nav-logo">
+        <span aria-hidden="true">
+          &#10149;
+        </span>
+        <span id="logo-name">
+          Brandon
+        </span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="{{ `/` | relURL }}"><span>Home</span></a></li>
+      <li><a href="{{ `/blog` | relURL }}"><span>Blog</span></a></li>
+    </ul>
+  </div>
 </nav>

@@ -2,12 +2,16 @@
   {{ $tagsLen := len .Params.tags }}
   {{ if gt $tagsLen 0 }}
   <div class=tags>
-    <span>• Related posts: </span>
+    <span>
+      <span class="dot" aria-hidden="true">•</span>Related posts:
+    </span>
     {{ with .Site.Params.relatedtext }}{{ . }}<br>{{ end }}
     {{ range $k, $v := .Params.tags }}
       {{ $url := printf "tags/%s" (. | urlize | lower) }}
-      <span>🏷 </span>
-      <a class="tag-display" id="tag_{{ . | lower }}" href="{{ $url | absURL }}">{{ . | title }}</a>
+      <div class="tag-container">
+        <span class="tag-emoji" aria-hidden="true">🏷</span>
+        <a class="tag-display" title="Tag {{ . | lower }}" id="tag-{{ . | lower }}" href="{{ $url | absURL }}">{{ . | title }}</a>
+      </div>
       {{ if lt $k (sub $tagsLen 1) }} &middot; {{ end }}
     {{ end }}
   </div>

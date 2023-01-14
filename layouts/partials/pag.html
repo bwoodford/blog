@@ -2,15 +2,15 @@
   <div class="pag">
     {{ with .paginator.Next}}
     <span class="pag-item-previous">
-      <a href="{{ .URL }}" class="pag-previous">
-        « Prev
+      <a href="{{ .URL }}" title="Older posts" class="pag-previous">
+        <span aria-hidden="true">« </span>Older
       </a>
     </span>
     {{ end }}
     {{ with .paginator.Prev }}
     <span class="pag-item-next">
-      <a href="{{ .URL }}" class="pag-next">
-        Next »
+      <a href="{{ .URL }}" title="Newer posts" class="pag-next">
+        Newer<span aria-hidden="true"> »</span>
       </a>
     </span>
     {{ end }}
