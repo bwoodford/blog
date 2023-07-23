@@ -15,13 +15,12 @@ main {
     display: inline-block;
   }
 
-  .content {
+  .post-content {
     margin-bottom: 1rem;
   }
 
   .post-date {
     font-style: italic;
-    margin-left: 1rem;
     opacity: .5;
   }
 
@@ -29,18 +28,13 @@ main {
     margin-top: 1rem;
   }
   
-  .tags {
-    margin: 1rem;
-  }
-
   .title,
-  .post-date,
   .post-heading {
     margin-bottom: .75rem;
   }
 
   .footnotes {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 
     hr {
       margin-bottom: 1rem;
@@ -48,28 +42,55 @@ main {
   }
 
   p {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
   }
 
-  ul,
   ol,
   img {
     margin: 0 0 1rem;
   }
+
+  ul {
+    margin: 0 0 1rem 1rem;
+  }
+
 
   sup {
     margin-left: .2rem;
   }
 
   pre {
-    margin: 0 0 2.3rem;
+    margin: 0 0 1rem;
   }
 
   img {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid #DCDCDC;
+    border: 1px solid $color-accent;
     border-radius: 3px;
+  }
+
+  // Home Page specific styling
+  .homepage-content {
+
+    figure.brandon-image {
+      border: 2px solid $color-accent;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      margin: 1rem auto 0;
+    }
+
+    figure.brandon-image img {
+      display: inline;
+      margin: 0 auto;
+      margin-left: -12%; //centers the image
+      height: 100%;
+      width: auto;
+    }
+
   }
 
 }
