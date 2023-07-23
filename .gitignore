@@ -7,3 +7,6 @@ public/**
 
 ' No keys
 activity-pub/**
+
+' Hugo build lock
+.hugo_build.lock
