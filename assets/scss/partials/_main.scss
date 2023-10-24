@@ -11,6 +11,10 @@ main {
     padding: 0;
   }
 
+  .post-summarized {
+    margin-bottom: 3rem;
+  }
+
   .tag-container {
     display: inline-block;
   }
@@ -45,6 +49,11 @@ main {
     margin: 1.5rem 0;
   }
 
+  p:first-child,
+  .post-content-summary {
+    margin: .5rem 0 1.5rem;
+  }
+
   ol,
   img {
     margin: 0 0 1rem;
@@ -53,7 +62,6 @@ main {
   ul {
     margin: 0 0 1rem 1rem;
   }
-
 
   sup {
     margin-left: .2rem;
@@ -89,8 +97,7 @@ main {
       margin-left: -12%; //centers the image
       height: 100%;
       width: auto;
+      border: none;
     }
-
   }
-
 }

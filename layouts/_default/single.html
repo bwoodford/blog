@@ -1,6 +1,6 @@
 {{ define "main" }}
     <article>
-        <h1 class="title">{{ .Title }}</h1>
+        <h2 class="title">{{ .Title }}</h2>
         {{ if in site.Params.mainSections .Type}}
             <div class="post-date">
               <time>{{ .Date.Format "January 2, 2006" }}</time>
