@@ -1,10 +1,12 @@
 baseURL = "https://www.bwoodford.xyz/"
 title = "Brandon Woodford's Website"
+frontmatter = "toml"
 languageCode = "en-US"
 paginate = 5
 
 [params]
-    description = "A dedicated space for my projects and musings."
+    description = "A website for Brandon Woodford's projects, thoughts, and opinions."
+    mainSections = ['blog']
 
 [markup]
     [markup.highlight]
