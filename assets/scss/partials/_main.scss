@@ -78,6 +78,13 @@ main {
     border-radius: 3px;
   }
 
+  table {
+    width: 100%;
+    height: auto;
+    overflow-x: scroll;
+    display: block;
+  }
+
   // Home Page specific styling
   .homepage-content {
 
