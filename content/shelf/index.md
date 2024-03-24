@@ -7,11 +7,16 @@ draft = "false"
 This is where I keep track of all the books I'm currently reading and have previously read. I read non-fiction frequently, but once in a while I'll slip in a science fiction book. 
 
 #### Currently Reading
-* Orwell, George - Animal Farm
-* Russell, Bertrand - A History of Western Philosophy
-* Simmons, Dan - Hyperion
+* Reader, John - Cities
+* Dostoevsky, Fyodor - Notes from the Underground
 
 #### Previous Reads
+* Dostoevsky, Fyodor - Crime and Punishment
+* Pirsig, Robert - Zen and the Art of Motorcyle Maintenance
+* Bogle, John - The Little Book of Commone Sense Investing
+* Camus, Albert - The Stranger
+* Russell, Bertrand - A History of Western Philosophy
+* Orwell, George - Animal Farm
 * Zinsser, William - On Writing Well
 * Hunt, Morton - The Story of Psychology
 * Huxley, Aldous - Brave New World
@@ -19,7 +24,6 @@ This is where I keep track of all the books I'm currently reading and have previ
 * Greene, Robert - The Laws of Human Nature
 * Blackburn, Simon - Think
 * Solzhenitsyn, Aleksandr - One Day in the Life of Ivan Denisovich
-* Dostoevsky, Fyodor - Crime and Punishment
 * Shirer, William - The Rise and Fall of the Third Reich
 * Newport, Cal - Deep Work
 * Frankl, Viktor - Man's Search for Meaning
