@@ -7,10 +7,17 @@ draft = "false"
 This is where I keep track of all the books I'm currently reading and have previously read. I read non-fiction frequently, but once in a while I'll slip in a science fiction book. 
 
 #### Currently Reading
-* Reader, John - Cities
-* Dostoevsky, Fyodor - Notes from the Underground
+* Clark, Christopher - Sleepwalkers
+* Abrahamian, Ervand - The Coup
+* Browning, Christopher R.- Ordinary Men
+
 
 #### Previous Reads
+* McBride, James - Five Carat Soul
+* Vonnegut, Kurt - Slaughterhouse Five
+* Chang, Iris - The Rape of Nanking
+* Reader, John - Cities
+* Dostoevsky, Fyodor - Notes from the Underground
 * Dostoevsky, Fyodor - Crime and Punishment
 * Pirsig, Robert - Zen and the Art of Motorcyle Maintenance
 * Bogle, John - The Little Book of Commone Sense Investing
