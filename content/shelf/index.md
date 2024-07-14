@@ -7,12 +7,12 @@ draft = "false"
 This is where I keep track of all the books I'm currently reading and have previously read. I read non-fiction frequently, but once in a while I'll slip in a science fiction book. 
 
 #### Currently Reading
-* Clark, Christopher - Sleepwalkers
 * Abrahamian, Ervand - The Coup
 * Browning, Christopher R.- Ordinary Men
 
 
 #### Previous Reads
+* Clark, Christopher - Sleepwalkers
 * McBride, James - Five Carat Soul
 * Vonnegut, Kurt - Slaughterhouse Five
 * Chang, Iris - The Rape of Nanking
