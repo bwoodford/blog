@@ -4,14 +4,14 @@ date = "2020-10-25T09:00:35-05:00"
 draft = "false"
 +++
 
-This is where I keep track of all the books I'm currently reading and have previously read. I read non-fiction frequently, but once in a while I'll slip in a science fiction book. 
+This is my virtual bookshelf, where I keep track of my previous and current reads.
 
 #### Currently Reading
-* Abrahamian, Ervand - The Coup
 * Browning, Christopher R.- Ordinary Men
-
+* Kafka, Franz - The Metamorphosis
 
 #### Previous Reads
+* Abrahamian, Ervand - The Coup
 * Clark, Christopher - Sleepwalkers
 * McBride, James - Five Carat Soul
 * Vonnegut, Kurt - Slaughterhouse Five
