@@ -17,7 +17,7 @@ This is my virtual bookshelf, where I keep track of my previous and current read
 * Vonnegut, Kurt - Slaughterhouse Five
 * Chang, Iris - The Rape of Nanking
 * Reader, John - Cities
-* Dostoevsky, Fyodor - Notes from the Underground
+* Dostoevsky, Fyodor - Notes from Underground
 * Dostoevsky, Fyodor - Crime and Punishment
 * Pirsig, Robert - Zen and the Art of Motorcyle Maintenance
 * Bogle, John - The Little Book of Commone Sense Investing
