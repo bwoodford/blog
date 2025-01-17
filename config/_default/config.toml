@@ -2,7 +2,7 @@ baseURL = "https://www.bwoodford.xyz/"
 title = "Brandon Woodford's Website"
 frontmatter = "toml"
 languageCode = "en-US"
-paginate = 5
+pagination.pagerSize = 5
 
 [params]
     description = "A website for Brandon Woodford's projects, thoughts, and opinions."
