@@ -7,10 +7,12 @@ draft = "false"
 This is my virtual bookshelf, where I keep track of my previous and current reads.
 
 #### Currently Reading
-* Browning, Christopher R.- Ordinary Men
-* Kafka, Franz - The Metamorphosis
+* Harsanyi, Teiva - 100 Go Mistakes
+* Wong, David - Real World Cryptography
+* Seirawan, Yasser - Play Winning Chess
 
 #### Previous Reads
+* Browning, Christopher R. - Ordinary Men
 * Abrahamian, Ervand - The Coup
 * Clark, Christopher - Sleepwalkers
 * McBride, James - Five Carat Soul
